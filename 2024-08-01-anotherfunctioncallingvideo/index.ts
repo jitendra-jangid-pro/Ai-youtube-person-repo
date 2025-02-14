@@ -19,7 +19,7 @@ async function WeatherFromLatLon(latitude: string, longitude: string) {
 	return `${json.current.temperature_2m} degrees Farenheit`;
 }
 
-const model = "firefunction-v2";
+const model = "llama3.1";
 const prompt = "What is the weather in Paris?";
 const messages = [{ role: "user", content: prompt }];
 
